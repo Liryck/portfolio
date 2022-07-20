@@ -26,6 +26,8 @@
         &:hover {
             color: #000;
             text-decoration: none;
+            transform: scale(1.1);
+            transition: all 0.5s;
         }
     }
 }

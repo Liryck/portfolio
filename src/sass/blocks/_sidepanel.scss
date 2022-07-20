@@ -24,6 +24,11 @@
             font-size: 16px;
             color: #000;   
         }
-
+    }
+    &__link{
+        img:hover {
+            transform: scale(3);
+            transition: 0.5s;
+        }
     }
 }
