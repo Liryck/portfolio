@@ -3,6 +3,9 @@
     min-height: 100vh;
     background: url('../img/main_bg.jpg') no-repeat 50%/cover;
     padding-top: 205px;
+    &__wrapper {
+        margin-left: 300px;
+    }
     &__title {
         width: 535px;
         margin-top: 10px;
@@ -11,7 +14,7 @@
         position: relative;
         z-index: 2;
         padding-left: 10px; 
-        @include before_circle;
+        @include before__circle;
     }
     &__buttons {
         margin-top: 25px;
