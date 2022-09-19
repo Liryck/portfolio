@@ -3,8 +3,15 @@
     background: $main-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     padding: 12px 25px;
-    // &:hover {
-    //     transform: scale(1.1);
-    //     transition: 0.5s;
-    // }
+    border: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+        &:hover {
+            color: #000;
+            text-decoration: none;
+            transform: scale(1.1);
+            transition: all 0.5s;
+        }
 }
