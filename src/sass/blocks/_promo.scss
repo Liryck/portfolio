@@ -9,11 +9,13 @@
     &__title {
         width: 535px;
         margin-top: 10px;
+        color: #fff;
     }
     &__subtitle {
         position: relative;
         z-index: 2;
         padding-left: 10px; 
+        color: #fff;
         @include before__circle;
     }
     &__buttons {
@@ -24,10 +26,10 @@
         align-items: center;
     }
     &__link {
-        color: #000;
+        color: #fff;
         font-weight: bold;
         &:hover {
-            color: #000;
+            color: #fff;
             text-decoration: none;
             transform: scale(1.1);
             transition: all 0.5s;
